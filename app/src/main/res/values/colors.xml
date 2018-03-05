@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bb5b0c</color>
+    <color name="colorPrimaryDark">#bb5b0c</color>
+    <color name="colorPrimaryDark1">#bb5b0c</color>
+    <!--<color name="colorAccent">#239fdc</color>-->
+    <color name="colorAccent">#bb5b0c</color>
+
+    <!--<color name="colorPrimary">#eb413d</color>-->
+    <!--<color name="colorPrimaryDark">#eb413d</color>  -->
+
+    <!--<color name="colorPrimary">#2d68ff</color>-->
+    <!--<color name="colorPrimaryDark">#2d68ff</color>-->
+
+    <!--<color name="colorAccent">#333333</color>-->
+    <color name="titleTextColor">#FFFFFF</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="qFFFFFF">#FFFFFF</color>
+    <color name="qF9FAF9">#F9FAF9</color>
+    <color name="q888888">#888888</color>
+    <color name="qAAAAAA">#AAAAAA</color>
+    <color name="q333333">#333333</color>
+    <color name="q000000">#000000</color>
+    <color name="qE5E5E5">#E5E5E5</color>
+    <color name="q77777777">#77777777</color>
+    <color name="q55555555">#55555555</color>
+    <color name="q88333333">#88333333</color>
+    <color name="qF5F5F9">#F5F5F9</color>
+    <color name="qEEEEEE">#E8E8E8</color>
+    <color name="qBDABA9">#BDABA9</color>
+    <color name="qB1C5A3">#B1C5A3</color>
+    <color name="qC3B19D">#C3B19D</color>
+    <color name="qC8BC98">#C8BC98</color>
+    <color name="q8FA3A7">#8FA3A7</color>
+    <color name="qA3A6BG">#A3A6B9</color>
+    <color name="qDBBFB2">#DBBFB2</color>
+    <color name="q8FB2BF">#8FB2BF</color>
+    <color name="qB6ADAD">#B6ADAD</color>
+
+
+
+
+
+
+</resources>

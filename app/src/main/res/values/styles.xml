@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="titleTextColor">@color/titleTextColor</item>-->
+        <!--<item name="android:textColorPrimary">@color/textColorPrimary</item>-->
+        <!--&lt;!&ndash;<item name="titleTextColor">@color/colorAccent</item>&ndash;&gt;-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="actionBarPopupTheme">@style/AppTheme.PopupOverlay</item>-->
+        <!--&lt;!&ndash;<item name="actionBarItemBackground">@drawable/menu_item_selector</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:actionBarItemBackground">@drawable/menu_item_selector</item>&ndash;&gt;-->
+        <!--<item name="toolbarNavigationButtonStyle">@style/QfangToolbarNavigationButtonStyle</item>-->
+        <!--<item name="android:listDivider">@drawable/horizontal_line</item>-->
+
+        <!--<item name="android:divider">@drawable/horizontal_line</item>-->
+        <!--&lt;!&ndash;<item name="navigationIcon">@mipmap/qfang_white_back_image</item>&ndash;&gt;-->
+        <!--<item name="actionMenuTextColor">@color/qFFFFFF</item>-->
+        <!--&lt;!&ndash;actionbar 高度&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:actionBarSize">@dimen/px_dp_100</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="EasyListFilterMenuStyle">@style/QfamgEasyListFilterMenuStyle</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="kProgressLayoutsStyle">@style/qfang_KProgressLayoutStyle</item>&ndash;&gt;-->
+        <!--<item name="EasyRecyclerViewStyle">@style/easyRecyclerViewStyle_white</item>-->
+
+        <!--<item name="android:windowBackground">@color/qF5F5F9</item>-->
+        <!--<item name="android:dialogTheme">@style/custom_dialog</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.SwipeBack">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.Splash">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.ImageDetailsTheme">
+        <item name="colorPrimaryDark">@color/q88333333</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="QfangToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <!--<item name="android:background">@drawable/menu_item_selector</item>-->
+        <item name="android:minWidth">56dp</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="custom_dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <item name="colorAccent">@color/q333333</item>
+        <!--<item name="android:textColorPrimary">@color/hei_49</item>-->
+        <!--<item name="android:background">@color/white</item>-->
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

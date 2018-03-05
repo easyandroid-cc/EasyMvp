@@ -1,0 +1,34 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">120dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="q10dp">10dp</dimen>
+    <dimen name="q2dp">2dp</dimen>
+    <dimen name="q3dp">3dp</dimen>
+    <dimen name="q8dp">8dp</dimen>
+    <dimen name="q5dp">5dp</dimen>
+    <dimen name="q15dp">15dp</dimen>
+    <dimen name="q20dp">20dp</dimen>
+    <dimen name="q25dp">25dp</dimen>
+    <dimen name="q30dp">30dp</dimen>
+    <dimen name="q35dp">35dp</dimen>
+    <dimen name="q40dp">40dp</dimen>
+    <dimen name="q50dp">50dp</dimen>
+
+
+    <!--sp-->
+    <dimen name="q16sp">16sp</dimen>
+    <dimen name="q18sp">18sp</dimen>
+    <dimen name="q20sp">20sp</dimen>
+    <dimen name="q22sp">22sp</dimen>
+    <dimen name="q24sp">24sp</dimen>
+    <dimen name="q26sp">26sp</dimen>
+    <dimen name="q28sp">28sp</dimen>
+    <dimen name="q30sp">30sp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="EasyLog-1.0.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/easymvpextend/build/intermediates/exploded-aar/cc.easyandroid/EasyLog/1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/easymvpextend/build/intermediates/exploded-aar/cc.easyandroid/EasyLog/1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
