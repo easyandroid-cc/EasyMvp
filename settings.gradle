@@ -1,1 +1,5 @@
-include ':app', ':library', ':easymvpextend'
+include ':app';
+include ':library';
+include ':easymvpex';
+//        ':library',
+//        ':easymvpextend'
