@@ -47,12 +47,12 @@ public class SimplePresenter1<D1, D2, D3 extends EasyDbObject> extends EasyBaseP
 
     public void exe1(EasyWorkUseCase.RequestValues<D1> requestValues) {
         easyWorkPresenter1.setRequestValues(requestValues);
-        easyWorkPresenter1.execute();
+        easyWorkPresenter1.execute(requestValues);
     }
 
     public void exe2(EasyWorkUseCase.RequestValues<D2> requestValues) {
         easyWorkPresenter2.setRequestValues(requestValues);
-        easyWorkPresenter2.execute();
+        easyWorkPresenter2.execute(requestValues);
     }
 
     public void exe3(DeleteByIdFromDbUseCase.RequestValues requestValues) {

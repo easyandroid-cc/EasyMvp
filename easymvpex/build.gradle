@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
 android {
-    compileSdkVersion 23
-    buildToolsVersion "26.0.0"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.0"
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 25
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
 
@@ -24,13 +24,15 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    provided 'com.android.support:appcompat-v7:23.1.1'
-    provided 'com.squareup.retrofit2:retrofit:2.1.0'
-    provided 'cc.easyandroid:EasyLog:1.0.0'
-    provided 'com.google.code.gson:gson:2.2.4'
-    provided 'cc.easyandroid:EasyMvp:1.0.0'
-//    provided project(':library')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'cc.easyandroid:EasyLog:1.0.0'
+    implementation 'com.google.code.gson:gson:2.2.4'
+//    implementation 'cc.easyandroid:EasyMvp:1.0.0'
+    provided project(':library')
 }
 //如果你开源库中有中文注释在moudel的build.gradle加入格式
 allprojects {
@@ -50,7 +52,7 @@ publish {
     userOrg = 'cgpllx'      //bintray注册的用户名
     groupId = 'cc.easyandroid'         //compile引用时的第1部分groupId
     artifactId = 'EasyMvpEx'     //compile引用时的第2部分项目名
-    publishVersion = '1.0.0'    //compile引用时的第3部分版本号
+    publishVersion = '1.1.1'    //compile引用时的第3部分版本号
     desc = '  EasyMvpEx '
     website = 'https://github.com/easyandroid-cc/EasyMvp'
 }

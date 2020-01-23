@@ -1,7 +1,8 @@
 package com.easymvp.simple.clean.usecase;
 
+import com.easymvp.simple.clean.repository.abs.DbDataSource;
+
 import cc.easyandroid.easyclean.UseCase;
-import cc.easyandroid.simple.clean.repository.abs.DbDataSource;
 
 /**
  * Created by cgpllx on 2016/8/16.
