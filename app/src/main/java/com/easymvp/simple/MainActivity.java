@@ -8,6 +8,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.easymvp.simple.core.DoubleDefault0Adapter;
 import com.easymvp.simple.core.IntegerDefault0Adapter;
 import com.easymvp.simple.core.LongDefault0Adapter;
@@ -18,7 +20,7 @@ import com.google.gson.GsonBuilder;
 
 import cc.easyandroid.easysqlite.abs.DataAccesObject;
 
-public class MainActivity extends Activity implements AdapterView.OnItemClickListener {
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     ListView listview;
     private String[] str_name = new String[]{"得到String 结果", "Gson1得到java对象", "Gson2得到java对象", "下载"};
 

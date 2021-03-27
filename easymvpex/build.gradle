@@ -31,8 +31,8 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.1.0'
     implementation 'cc.easyandroid:EasyLog:1.0.0'
     implementation 'com.google.code.gson:gson:2.2.4'
-//    implementation 'cc.easyandroid:EasyMvp:1.0.0'
-    provided project(':library')
+    implementation 'cc.easyandroid:EasyMvp:1.0.0'
+//    provided project(':library')
 }
 //如果你开源库中有中文注释在moudel的build.gradle加入格式
 allprojects {
